@@ -17,6 +17,9 @@ a{
     padding-right: 15px;
     margin: 0 auto;
 }
+.header-conteiner{
+    display: flex;
+}
 
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
@@ -38,6 +41,10 @@ footer{
     background-color: #2e2f42;
 }
 
+.header-navigation{
+    display: flex;
+}
+
 .header-logo{
     font-family:"Raleway", sans-serif;
     font-weight: 700;
@@ -46,11 +53,17 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    margin-right: 76px;
 }
 
 .accent-header{
     color: #2e2f42;
+}
 
+.header-menu-list{
+    display: flex;
+    gap: 40px;
 }
 
 .header-menu-link{
@@ -59,6 +72,7 @@ footer{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 .header-menu-link:hover{
@@ -71,19 +85,30 @@ footer{
 
 .header-adderes{
     font-style: normal;
+    display: flex;
+    margin-left: auto; 
 }
 
-.addres-menu-link{
+.addres-menu-list{
+    display: flex;
+    gap: 40px;
+}
+
+.addres-menu-item{
+    
+}
+
+.addres-item-link{
     line-height: 1.5;
     color:#434455;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
-.addres-menu-link:hover{
+.addres-item-link:hover{
     color: #404bbf
 }
 
-.addres-menu-link:focus{
+.addres-item-link:focus{
     color: #404bbf
 }
 
@@ -94,6 +119,7 @@ footer{
     letter-spacing: 0.02em;
     color: #ffffff;
     padding-bottom: 48px;
+    max-width: 496px;
 }
 
 .service{
@@ -110,6 +136,10 @@ footer{
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
+    max-width: 169px;
+    height: 56px;;
+    display: block;
+    margin: 0 auto;
 }
 
 .button:hover{
@@ -120,12 +150,23 @@ footer{
     background-color: #404BBF
 }
 
+
 .features{
     padding-bottom: 120px;
+    
 }
 
 .features-header{
     visibility: hidden;
+}
+
+.features-menu-list{
+    display: flex;
+    gap: 24px;
+}
+
+.features-item{
+   
 }
 
 .features-item-subtitle{
@@ -135,6 +176,7 @@ footer{
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-bottom: 8px;
+    
 }
 
 .feature-item-text{
@@ -146,6 +188,7 @@ footer{
 
 .team{
     background-color: #F4F4FD;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -158,8 +201,13 @@ footer{
     color: #2e2f42;
     text-transform: capitalize;
     padding-bottom: 72px;
+    margin: 120 639 572 639;
 }
 
+.team-menu-list{
+    display:flex;
+    gap: 24px;
+}
 .team-item-img{
     padding-bottom: 32px;
 }
@@ -185,6 +233,7 @@ footer{
     color: #434455;
 }
 .portfolio{
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -200,6 +249,12 @@ footer{
 }
 
 .portfolio-item-img{
+
+}
+.portfolio-menu-list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .portfolio-item-subtitle{
     font-weight: 500;
@@ -218,10 +273,15 @@ footer{
     color: #434455;
 }
 
+.footer{
+
+}
 .footer-description{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#F4F4FD;
+    max-width: 264px;
+    padding-top: 17.5px;
 }
 
 .footer-logo{
@@ -232,7 +292,6 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase ;
     color:#4d5ae5;
-    padding-bottom: 17.5em;
 }
 
 .accent-footer{
