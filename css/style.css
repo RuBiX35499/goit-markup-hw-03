@@ -274,6 +274,7 @@ footer{
 }
 
 .footer{
+    padding: 100px 0;
 
 }
 .footer-description{
@@ -292,6 +293,8 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase ;
     color:#4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .accent-footer{
