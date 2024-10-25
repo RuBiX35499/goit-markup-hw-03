@@ -250,6 +250,11 @@ footer{
     padding-bottom: 120px;
 }
 
+.portfolio-conteiner{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top:none;
+}
 .portfolio-header{
     font-weight: 700;
     font-size: 36px;
@@ -277,7 +282,7 @@ footer{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .portfolio-menu-item{
     width: calc((100% - 48px) / 3);
