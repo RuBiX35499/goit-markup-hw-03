@@ -203,6 +203,10 @@ footer{
     padding-bottom: 120px;
 }
 
+.team-conteiner{
+    padding: 32px 0;
+}
+
 .team-header{
     font-weight: 700;
     font-size: 36px;
@@ -269,6 +273,7 @@ footer{
 .portfolio-item-img{
 
 }
+
 .portfolio-menu-list{
     display:flex;
     flex-wrap: wrap;
